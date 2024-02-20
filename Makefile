@@ -1,2 +1,11 @@
+CC := gcc
+CFLAGS := -Wall -Wextra -Wpedantic -g0 -Os 
+LDLIBS := -lulfius -ljansson
+
+all: rest_api
+
+clean: rest_api
+	rm $^
+
 rest_api: main.c
-	clang -o rest_api main.c -Wall -Wextra -Wpedantic -g0 -Os -lulfius -ljansson
+	$(CC) -o $@ $^ $(CFLAGS) $(LDLIBS)
