@@ -1,9 +1,10 @@
-C REST API for a TODO application
----------------------------------
+REST API in C for a TODO application
+------------------------------------
 
 Dependencies:
-- Jansson framework for JSON. - `https://github.com/akheron/jansson`
-- Ulfius framework for the REST API. - `https://github.com/babelouest/ulfius`
+- Jansson framework for JSON. - https://github.com/akheron/jansson
+- Ulfius framework for the REST API. - https://github.com/babelouest/ulfius
 
-# Date & time of writing: 
+# NOTE: (I forgot the time of writing so I just put it to the first commit time. )
+# Date & time of writing: 2024.02.17 04:10:13 EEST 
 # vim:syntax=conf
